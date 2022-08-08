@@ -1,0 +1,10 @@
+/* p_t_color stands for primary text color*/
+.primary_text_color{
+    color: #1c96c5;
+}
+
+.error_msg {
+    color: #FF3333;
+    font-size: 10px;
+}
+

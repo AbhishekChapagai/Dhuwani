@@ -1,0 +1,256 @@
+/* Cosmetic category CSS */
+.NavDropdown .nav-link{
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 1) !important;
+
+    
+}
+.linkContainer{
+    color: rgba(0, 0, 0, 1) !important;
+}
+.sCosmetics{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    }
+.cBand{
+    margin-bottom: 20px;
+}
+.cosmeticFilter{
+    border-right: 1px solid rgb(231, 231, 231);
+    display: block;
+    padding-left: 3%;
+    margin-bottom: 10px;
+}
+
+.cosmeticType{
+    width: fit-content;
+}
+.cosmeticName p{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.cosmeticName a{
+    font-size: 13px;
+    color: rgb(168, 168, 168);
+    font-family: 'Lato', sans-serif;
+}
+.cosmeticName a:hover{
+    color: #1c96c5;
+}
+
+.cosmeticFilterType{
+    margin-top: 10px;
+}
+.cosmeticFilterType p{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.cosmeticFilterType a{
+    font-size: 13px;
+    color: rgb(168, 168, 168);
+    font-family: 'Lato', sans-serif;
+}
+.cosmeticFilterType a:hover{
+    color: #1c96c5;
+}
+.CatCosmetics{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.h2Filter{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cCat{
+    width: 230px !important;
+    height: 40.1vh;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.cCat:hover{
+    transform: translateY(-3.5px);
+    transition: 0.2s;
+}
+.CosmeticsImage{
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    background-size: 10px 20px;
+
+}
+
+.CosmeticsImage img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.CosmeticsNameCategory{
+    height: 110px;
+    padding: 5px;
+}
+.CosmeticsName{
+    font-size: 16px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.CosmeticType{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    color: black;
+    margin-bottom: 10px;
+}
+.CosmeticsPrice{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.mainCatCosmetics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+/* Gadget category CSS */
+
+.showGadgets{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+.gadgetsBand{
+    margin-bottom: 20px;
+}
+
+.gadgetsFilter{
+    border-right: 1px solid rgb(231, 231, 231);
+    display: block;
+    padding-left: 3%;
+    margin-bottom: 10px;
+}
+.gadgetsFilter p{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.gadgetsFilter a{
+    font-size: 13px;
+    color: rgb(168, 168, 168);
+    font-family: 'Lato', sans-serif;
+}
+.gadgetsFilter a:hover{
+    color: #1c96c5;
+}
+.mainCatGadgets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.gadgetsCat{
+    width: 240px !important;
+    height: 50.1vh;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.gadgetsCat:hover{
+    transform: translateY(-3.5px);
+    transition: 0.2s;
+}
+.catGadgetsImage{
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    background-size: 10px 20px;
+}
+.catGadgetsImage img{
+    width: 100%;
+    height: 100%;
+}
+.GadgetsNameCategory{
+    padding: 5px;
+}
+.GadgetsName{
+    font-size: 16px;
+    height: 10vh;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.ratingGadget{
+    color: orange;
+    margin-top: -8px;
+}
+.GadgetPrice{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-left: -3px;   
+} 
+
+
+
+/* Dropdown */
+.dropdown-item {
+    color: #1c96c5;
+    font-weight: 700;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #1c96c5;
+    background-color: #fff;
+}
+
+a.dropdown-item:hover{
+    display: flex;
+    color: #075d80;
+    background-color: #eff2f5;
+    padding: 10px;
+}
+
+.nav_profile_link {
+    display: flex;
+    align-items: center;
+    border: 2px solid #1c96c5;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nav_profile_icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.nav_profile_detatil {
+    font-size: 12px;
+}
+
+.nav_profile {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.nav_profile span {
+    color: #1c96c5;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav_name_mob {
+    text-transform: capitalize;
+}

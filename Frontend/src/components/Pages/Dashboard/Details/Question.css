@@ -1,0 +1,80 @@
+.card_questions {
+    border: none
+}
+
+.card-div {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7fbff;
+    border-bottom: 1px solid #eee
+}
+
+.card-div-2 {
+    padding: 20px;
+    margin-top: 20px;
+}
+.Question_text {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    top: -51px
+}
+
+.Question_text input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #eee
+}
+
+.Question_text input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.Question_text button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 150px;
+    background: #1c96c5;
+}
+.ques {
+    margin-left: 10px;
+    margin-bottom: 1px;
+    color: black;
+    font-size: 24px;
+    
+}
+
+.username_ques{
+  font-size: 15px;
+  margin-left: 22px;  
+  font-weight: bold;
+  color: black;
+}
+.question_border{
+    border-bottom: 1px solid #eff0f5;
+}
+.question-card{
+    margin-top: -50px;
+}
+.trigger-rep{
+    width: 100px;
+    float: right;
+    font-size: 15px;
+}
+
+.Ques-title{
+    font-size: 100px;
+    font-weight: 300;
+    
+}
+.ques-icon{
+    font-size: 30px;
+    color: #1c96c5;
+}
+.input-reply{
+    width: 300px;
+}

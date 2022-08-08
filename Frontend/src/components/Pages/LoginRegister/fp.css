@@ -1,0 +1,114 @@
+.ForgotPassword{
+    height: 100vh;
+    display: flex;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.fp_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fp_border {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+}
+
+.fp_logo {
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fp_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fp_title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fp_content {
+    font-size: 16px;
+}
+
+.fp_form {
+    width: 100%;
+    margin-bottom: 40%;
+}
+
+.fp_heading, .fp_form{
+    padding: 0 30px;
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape){
+    .ForgotPassword{
+        height: 100%;
+    }
+
+    .fp_form{
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 576px) and (orientation: portrait) {
+    .ForgotPassword{
+        height: 100%;
+        margin: 0;
+    }
+    .fp_container{
+        height: auto;
+    }
+    .fp_border {
+        border: none;
+        padding: 0;
+    }
+    .fp_heading, .fp_form{
+        padding: 0;
+    }
+    .fp_title {
+        align-items: initial;
+    }
+    .fp_form {
+        margin-bottom: 0%;
+    }
+
+}
+
+@media only screen and (max-width: 576px) and (orientation: landscape){
+    .ForgotPassword{
+        height: 100%;
+        margin: 0;
+    }
+    .fp_container{
+        height: auto;
+    }
+    .fp_border {
+        border: none;
+        padding: 0;
+    }
+    .fp_heading, .fp_form{
+        padding: 0;
+    }
+    .fp_title {
+        align-items: initial;
+    }
+    .fp_form {
+        margin-bottom: 5%;
+    }
+}
+

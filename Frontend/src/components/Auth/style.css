@@ -1,0 +1,117 @@
+/* --------------------- Verify email --------------------- */
+.VerifyEmail {
+    height: 100%;
+    text-align: justify;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.verify_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.email_msg {
+    font-size: 16px;
+}
+
+.btn_send_verification {
+    width: auto;
+    margin: 10px;
+}
+
+/* --------------------- Email Verified --------------------- */
+.EmailVerification {
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+.custom_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.success_page {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(2, 70, 2);
+    color: #fff;
+}
+
+.success_icon {
+    font-size: 5rem;
+}
+
+.btn_success {
+    /* background-color: #1c96c5; */
+    background-color: #fff;
+    font-weight: 800;
+    border-radius: 30px;
+    padding: 10px;
+    min-width: 100px;
+    color: rgb(2, 70, 2);
+}
+
+.error_page{ 
+    background-color: rgb(156, 10, 10);
+    color: #fff;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.error_icon_size{
+    font-size: 5rem;
+    padding: 10px;
+}
+
+.error_heading, .success_heading {
+    font-size: 3rem;
+}
+
+.error_msg, .success_msg {
+    font-size: 1rem;
+}
+
+
+.btn_error {
+    /* background-color: #2d00fb; */
+    background-color: #fff;
+    font-weight: 800;
+    border-radius: 30px;
+    padding: 10px;
+    min-width: 100px;
+}
+
+.btn_error:hover, .btn_success:hover {
+    background-color: #bec1c4;
+}
+
+.btn_error, .btn_error:hover {
+    color: rgb(156, 10, 10);
+}
+
+
+@media only screen and (max-width: 576px) and (orientation: landscape){
+    .error_page, .success_page {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (orientation: portrait){
+    .error_heading, .success_heading {
+        font-size: 2rem;
+    }
+    .error_msg, .success_msg {
+        font-size: 0.9rem;
+    }
+}

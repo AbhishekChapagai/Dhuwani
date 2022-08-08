@@ -1,0 +1,440 @@
+/* LandingAD */
+.imagead1{
+    width: 100%;
+    height: 72vh;
+}
+.imagead1 img{
+    width: 100%;
+    height: 72vh;
+}
+@media screen and (max-width: 1024px){
+    .imagead1{
+    width: 100%;
+    height: 40vh;
+}
+.imagead1 img{
+    width: 100%;
+    height: 40vh;
+}
+}
+@media screen and (max-width: 768px){
+    .imagead1{
+    width: 100%;
+    height: 30vh;
+}
+.imagead1 img{
+    width: 100%;
+    height: 30vh;
+}
+}
+@media screen and (max-width: 500px){
+    .imagead1{
+    width: 100%;
+    height: 30vh;
+}
+.imagead1 img{
+    width: 100%;
+    height: 30vh;
+}
+}
+  /* Slick arrow */
+.slick-arrow{
+    background-color: #e4e4e4;
+    height: 80px;
+    width: 35px;
+    visibility: hidden;
+}
+.slick-arrow:hover{
+    background-color: #e4e4e4;
+    height: 80px;
+    width: 35px;
+    transition: 0.3s;
+}
+.slick-arrow:active{
+    background-color: #ebebeb;
+    color: white;
+}
+.slick-arrow:focus{
+    background-color: #d3d3d3;
+}
+.slick-prev{
+    border-radius: 0 3px 3px 0;
+    color: rgba(175, 9, 9, 0.1);
+ }
+.slick-next{
+    border-radius: 3px 0 0 3px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgba(0, 0, 0, 1);
+}
+.slick-prev::after,
+.slick-next::after {
+  color: rgba(0, 0, 0, 1);
+}
+/* Cosmetic category CSS */
+
+.displayCosmetic{
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    /* box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); */
+}
+.displayCosmetic:hover .slick-arrow{
+    visibility: visible;
+    transition: 0.4s;
+    
+}
+.showCosmetic{
+    border-radius: 3px;
+ }
+.cosmeticBand{
+    padding: 5px;
+    text-align: center;}
+.txtCosmetic{
+    font-size: 24px;
+    word-spacing: 5px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    
+} 
+
+.mainCatCosmetic{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.cosmeticCat{    
+    width: 230px !important;
+    height: 40.1vh;
+    text-decoration: none;
+    margin-top: 5px;
+}
+@media screen and (max-width: 480px){
+    .cosmeticCat{    
+        width: 280px !important;
+        height: 50.1vh;
+    }
+}
+.cosmeticCat:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    transform: translateY(-5px);
+}
+.catCosmeticImage{
+    width: 100%;
+    height: 60%;
+}
+
+.catCosmeticImage img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.CosmeticNameCategory{
+    height: 110px;
+    padding: 5px;
+    /* text-align: center; */
+}
+.CosmeticName{
+    font-size: 16px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.CosmeticName:hover{
+
+    color: #1c96c5;
+}
+.CosmeticType{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    color: black;
+    margin-bottom: 10px;
+}
+.cosmeticRating{
+    margin-top: 15px;
+    color: orange;
+}
+.CosmeticPrice{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+/* Gadget category CSS */
+.displayGadget{
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); */
+}
+.displayGadget:hover .slick-arrow{
+    visibility: visible;
+    transition: 0.4s;  
+}
+.showGadget{
+    border-radius: 3px;
+
+}
+.gadgetBand{
+    padding: 5px;
+    text-align: center;}
+
+.txtGadget{
+    font-size: 26px;
+    word-spacing: 5px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+} 
+
+.mainCatGadget{
+    width: 100%;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.gadgetCat{
+    /* background-color: aqua; */
+    width: 240px !important;
+    height: 45.1vh;
+    text-decoration: none;
+    margin-top: 5px;
+}
+@media screen and (max-width: 480px){
+    .gadgetCat{    
+        width: 280px !important;
+        height: 50.1vh;
+    }
+}
+.gadgetCat:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    transform: translateY(-5px);
+}
+.catGadgetImage{
+    width: 100%;
+    height: 50%;
+}
+.catGadgetImage img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.GadgetNameCategory{
+    padding: 5px;
+    /* text-align: center; */
+}
+.GadgetName{
+    font-size: 16px;
+    height: 10vh;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.GadgetName:hover{
+    color: #1c96c5;
+}
+.ratingGadget{
+    color: orange;
+}
+.GadgetPrice{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-top: -15px;   
+} 
+
+/* camera category CSS */
+.displayCamera{
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    /* box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); */
+
+}
+.displayCamera:hover .slick-arrow{
+    visibility: visible;
+    transition: 0.4s;  
+}
+.showCamera{
+    border-radius: 3px;
+}
+.cameraBand{
+    padding: 5px;
+    text-align: center;
+}
+
+.txtCamera{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    display: inline-block;
+    line-height: normal;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+}
+.txtCamera span{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.txtCamera span::before{
+    content: '';
+    border-top: 1px solid #ddd;
+    position: absolute; 
+    left:-100px;
+    top:18px;
+    width:90px;
+}
+.txtCamera span::after{
+    content: '';
+    border-top: 1px solid #ddd;
+    position: absolute;
+    right:-100px;
+    top:18px;
+    width:90px;
+}
+.txtCamera span strong{
+    color: #ddd;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    top: -30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.mainCatCamera{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cameraCat{
+    width: 240px !important;
+    height: 45.1vh;
+    text-decoration: none;
+    margin-top: 5px;
+}
+@media screen and (max-width: 480px){
+    .cameraCat{    
+        width: 280px !important;
+        height: 50.1vh;
+    }
+}
+.cameraCat:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    transform: translateY(-5px);
+}
+.catCameraImage{
+    width: 100%;
+    height: 50%;
+    background-size: 10px 20px;
+}
+.catCameraImage img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.CameraNameCategory{
+    padding: 5px;
+}
+.CameraName{
+    font-size: 16px;
+    height: 12vh;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.CameraName:hover{
+    color: #1c96c5;
+}
+.ratingCamera{
+    margin-top: 15px;
+    color: orange;
+}
+.CameraPrice{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin-top: -15px;   
+} 
+/* Gadget AD */
+.GadgetContainer{
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Gadgets by brand */
+.brandContainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.showBrands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.rowBrands{
+    padding: 10px;
+}
+.colBrands{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lenovo{
+    width: 120px;
+    cursor: pointer;
+}
+.dell{
+    cursor: pointer;
+}
+.msi{
+    padding: 5px;
+    cursor: pointer;
+}
+.arous{
+    cursor: pointer;
+}
+.acer{
+    cursor: pointer;
+}
+.asus{
+    cursor: pointer;
+}
+.hp{
+    cursor: pointer;
+}
+.razer{
+    cursor: pointer;
+}
+.apple{
+    cursor: pointer;
+}
+.microsoft{
+    cursor: pointer;
+}

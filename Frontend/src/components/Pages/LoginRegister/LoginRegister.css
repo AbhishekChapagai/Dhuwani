@@ -1,0 +1,247 @@
+.btn {
+    width: 100%;
+}
+
+.btn_primary_color {
+    /* background-color: #2d00fb; */
+    background-color: #1c96c5;
+    font-weight: 600;
+}
+
+.btn_primary_color:hover {
+    background-color: #075d80;
+}
+
+.btn_primary_color, .btn_primary_color:hover {
+    color: #fff;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* input field with icon */
+.input_right_icon {
+    display: flex;
+}
+
+.input_right_icon .form_control_input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form_right_icon {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    color: #1c96c5
+}
+
+.form_right_icon:hover {
+    background-color: #eff2f5;
+    color: #075d80
+}
+
+.icon_change {
+    font-size: 20px;
+}
+
+/* Register and Login css */
+.Register, .Login {
+    /* background-color: blue; */
+    display: flex;
+    font-family: "Inter", sans-serif;
+}
+
+.r_left_side, .l_left_side, .r_left_top, .l_left_top {
+    background-color: #fff;
+}
+
+.r_left_logo, .l_left_logo, .logoLink {
+    color: #1c96c5;
+}
+
+.r_left_side, .l_left_side {
+    position: relative;
+    flex: 1 1 0 ;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+
+.r_left_top, .l_left_top {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 24px;
+}
+
+.r_left_logo, .l_left_logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.logoLink{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoLink:hover {
+    color: #075d80;
+}
+
+
+.r_left_form, .l_left_form {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+}
+
+.form-floating .form-control {
+    /* border: 1px solid #92d3ec; */
+    height: 55px;
+}
+
+.r_left_bottom, .l_left_bottom {
+    width: 100%;
+    /* margin: 24px auto 0; */
+    min-height: 60px;
+    padding-left: 32px;
+    background-color: #f6f6f9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.l_right_side {
+    /* background-color: #1c96c5; */
+    /* height: 100%; */
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.r_right_side {
+      /* background-color: #1c96c5; */
+    /* height: 100%; */
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.l_form_forgot {
+    text-align: end;
+}
+
+.l_link {
+    color: #1c96c5;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.l_link:hover {
+    color: #075d80;
+    text-decoration: underline;
+}
+
+.lr_img_container {
+    display: flex;
+    justify-content: right;
+}
+
+.lr_img {
+    display: flex;
+    justify-content: center;
+    width: 97%;
+}
+
+/* media-query */
+@media only screen and (min-width: 1200px){
+    .Register{
+        height: 100vh;
+    }
+
+    /* .r_right_side img {
+        width: 50%;
+    } */
+
+    
+    .r_left_form, .l_left_form{
+        width: 450px;
+        margin-top: 30px;
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .Login{
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .r_left_form, .l_left_form{
+        width: 450px;
+        margin-top: 30px;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .r_left_form, .l_left_form{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .r_right_side, .l_right_side {
+        display: none;
+    }
+
+    .r_left_form, .l_left_form{
+        width: 90%;
+        margin-top: 20px;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .r_left_form, .l_left_form{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    html, body, #root, .App, .Login, .Register {
+        height: 100%;
+    }
+
+    .l_left_form {
+        display: flex;
+        justify-content: center;
+    }
+}
